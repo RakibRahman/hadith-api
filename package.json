@@ -1,24 +1,26 @@
 {
-  "name": "hadith-api",
-  "version": "1.0.0",
-  "description": "A api for hadiths in bengali language",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RakibRahman/hadith-api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RakibRahman/hadith-api/issues"
-  },
-  "homepage": "https://github.com/RakibRahman/hadith-api#readme",
-  "dependencies": {
-    "json-server": "^0.16.3"
-  }
+	"name": "hadith-api",
+	"version": "1.0.0",
+	"description": "A api for hadiths in bengali language",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RakibRahman/hadith-api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RakibRahman/hadith-api/issues"
+	},
+	"homepage": "https://github.com/RakibRahman/hadith-api#readme",
+	"dependencies": {
+		"apollo-server": "^2.24.0",
+		"graphql": "^15.5.0",
+		"json-server": "^0.16.3"
+	}
 }
