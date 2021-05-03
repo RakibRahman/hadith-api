@@ -24,12 +24,13 @@ To contribute:
 - add data to following below format
 
 ```
- { "id": "",
-  "name": "",
-   "description": "",
-   "numbers": "",
-    "grade": ""
-    }
+{
+"id": "",
+"name": "",
+"description": "",
+"numbers": "",
+"grade": ""
+}
 
 ```
 
