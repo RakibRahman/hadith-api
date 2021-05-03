@@ -34,6 +34,7 @@ async function () {
 **To contribute:**
 
 - Fork the repository
+- Clone the repository to your pc
 - add hadith data to the following format:
 
 ```
