@@ -34,5 +34,5 @@ To contribute:
 
 ```
 
-- keep track of id
+- keep track of **id**
 - create pull request
