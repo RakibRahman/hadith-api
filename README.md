@@ -34,7 +34,7 @@ async function () {
 **To contribute:**
 
 - Fork the repository
-- add data to following below format
+- add hadith data to the following format:
 
 ```
 {
