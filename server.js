@@ -22,6 +22,7 @@ server.listen(port);
 const typeDefs = gql`
 	type Verse {
 		id: Int!
+		name: String!
 		description: String!
 		references: String!
 		grade: String!
