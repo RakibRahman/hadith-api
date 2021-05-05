@@ -1,6 +1,6 @@
 # Hadith API
 
-A API for hadiths in bengali language
+A API for hadiths in bengali language for the first time!
 
 From this API you will get:
 
@@ -12,7 +12,7 @@ API: https://bn-hadith-api.herokuapp.com/hadiths
 
 To fetch data from this api you can use following examples:
 
-### using Promise:
+### Using Promise:
 
 ```
 fetch('https://bn-hadith-api.herokuapp.com/hadiths/0')
@@ -20,7 +20,7 @@ fetch('https://bn-hadith-api.herokuapp.com/hadiths/0')
   .then(data => console.log(data));
 ```
 
-### using Async/Await
+### Using Async/Await:
 
 ```
 async function () {
@@ -42,13 +42,14 @@ async function () {
 "id": ,
 "name": "",
 "description": "",
-"numbers": "",
+"references": "",
 "grade": ""
 }
 
 ```
 
 - keep track of **id**
+- Try to add at least ten hadiths.
 - create pull request
 
 **Thanks to [iHadis](http://ihadis.com/) for providing hadiths**
