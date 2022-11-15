@@ -15,7 +15,7 @@ To fetch data from this api you can use following examples:
 ### Using Promise:
 
 ```
-fetch('https://bn-hadith-api.herokuapp.com/hadiths/0')
+fetch('https://bn-hadith-api.herokuapp.com/hadiths')
   .then(response => response.json())
   .then(data => console.log(data));
 ```
@@ -24,7 +24,7 @@ fetch('https://bn-hadith-api.herokuapp.com/hadiths/0')
 
 ```
 async function () {
-  const fetchAPI = fetch(`https://bn-hadith-api.herokuapp.com/hadiths/0`);
+  const fetchAPI = fetch(`https://bn-hadith-api.herokuapp.com/hadiths`);
   const response = await fetchAPI;
   const data = await response.json();
   console.log(data);
